@@ -72,16 +72,16 @@ h2 {
     border: 2px solid #96c2d7;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .container {
-        width: 90%;
+        width: 80%;
     }
 
     label {
-        width: 100%;
+        width: 40%;
     }
 
     input[type="text"], input[type="range"] {
-        width: 100%;
+        width: 50%;
     }
 }
