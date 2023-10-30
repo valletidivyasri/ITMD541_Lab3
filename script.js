@@ -7,8 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const tipForm = document.getElementById("tip-form");
    
     tipSlider.addEventListener("input", function () {
-        tipPercentage.value = tipSlider.value;    
-        tipPercentage.setCustomValidity("Tip Percentage must remain at 0 until the form is submitted");
+        tipPercentage.value = tipSlider.value;
     });
 
     tipForm.addEventListener("input", function () {
@@ -20,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tipAmount.value = tipAmountValue.toFixed(2);
             totalBill.value = totalValue.toFixed(2);
         } else {
-            alert('Please enter a valid number for bill total');
+            alert('Please enter a valid number');
             return;
         }
     });
